@@ -9,6 +9,8 @@ This contains scripts for branch-wise analysis and gene shopping. Needs a refere
 ## [divergence time estimation](https://github.com/pebgroup/alpine_saxifraga/tree/main/divergence_time_estimation)
 This provides the necessary inputs to estimate the time-calibrated phylogenies that were estimated in this study. In each case the *treePL* configuration file is provided (ending in .treePL) and the input tree file (ending in .tre)
 
+A more user friendly version of the congruent branches method for getting molecular branch lengths to then use in treePL is [here](https://github.com/TomCarr/GetCongruentBranches).
+
 ## [lineage specific diversification rate estimation](https://github.com/pebgroup/alpine_saxifraga/tree/main/lineage_specific_diversification_rate_estimation)
 This provides the necessary inputs to perform lineage specific diversification rate estimation on the time-calibrated phylogeny designated as main, and no maximum. In each case the BAMM input file, and input time-calibrated phylogeny is provided. Also provided is an [R script](https://github.com/pebgroup/alpine_saxifraga/blob/main/lineage_specific_diversification_rate_estimation/set_priors.R) used to get appropriate priors in each case, and an [R script](https://github.com/pebgroup/alpine_saxifraga/blob/main/lineage_specific_diversification_rate_estimation/bamm_analysis.R) used for analysing and plotting outputs.
 
